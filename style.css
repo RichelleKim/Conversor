@@ -1,0 +1,70 @@
+body {
+    font-family: "Gowun Batang", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(#f78383,#f7b783,#f7e983,#8ff783,#83f1f7,#8396f7,#e083f7);
+}
+
+.container {
+    margin: 10%;
+    background-color: #ececec;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display:flex
+   
+}
+
+.cores{
+    background-color: #ececec;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 70%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.color-display {
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+@media (max-width: 500px) {
+    .color-display {
+        width: 100px;
+        height: 500px;
+        margin-top: 20px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+    }
+    .container {
+        margin: 10%;
+        background-color:  #eeeeee;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        display:flex
+       
+    }
+}
